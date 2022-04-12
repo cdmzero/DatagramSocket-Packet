@@ -1,6 +1,7 @@
 
-### Ejemplo Conexion UDP Cliente - Servidor
-Sencillo ejemplo en el que utilizamos las clases `DatagramSocket` y `DatagramPacket` con el uso de `buffers` 
+## Conexion UDP entre Cliente & Servidor
+Sencillo ejemplo en el que utilizamos las clases `DatagramSocket` y `DatagramPacket` con el uso de `buffers`.
+
 Se trata de un servidor que reenvía el mismo mensaje que le envía el cliente.
 
 
