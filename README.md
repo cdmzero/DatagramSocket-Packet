@@ -152,5 +152,6 @@ public class Servidor {
 
 }
 
-´´´
+```
+
 > En el servidor exponemos el puerto 6789 y lo dejamos a la espera del mensaje del cliente, este cuando reciba el correo del cliente se reenviara al cliente.
