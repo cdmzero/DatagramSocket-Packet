@@ -1,8 +1,23 @@
 
+
+## Introduccion
+En el paquete java.io existen 2 clases principales para habilitar la comunicacion via datagramas entre cliente y servidor.
+
+Estas clases necesarias son:
+1. `DatagramSocket`
+  - Maneja sockets para enviar y recibir datagramas.
+2. `DatagramPacket`
+  - Proporciona constructores para crear instancias a partir de los datagramas **recibidos**.
+  - Proporciona constructores para crear instancias a partir de los datagramas **enviados**.
+  - Todos ellos se sirven de un buffer para almacenar sus mensajes
+
+
 ## Conexion UDP entre Cliente & Servidor
 Sencillo ejemplo en el que utilizamos las clases `DatagramSocket` y `DatagramPacket` con el uso de `buffers`.
 
 Se trata de un servidor que reenvía el mismo mensaje que le envía el cliente.
+
+***
 
 
 ```mermaid
